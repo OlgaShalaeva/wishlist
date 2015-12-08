@@ -1,0 +1,37 @@
+{
+  "name": "wishlist",
+  "version": "0.0.7",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "jade": "~1.11.0",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0"
+  },
+  "description": "I want it!",
+  "main": "bin/www.js",
+  "bin": {
+    "wishlist": "www.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlgaShalaeva/wishlist.git"
+  },
+  "keywords": [
+    "wishlist",
+    "wish",
+    "dream"
+  ],
+  "author": "Olya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OlgaShalaeva/wishlist/issues"
+  },
+  "homepage": "https://github.com/OlgaShalaeva/wishlist#readme"
+}
