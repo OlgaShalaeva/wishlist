@@ -1,23 +1,26 @@
 .container {
-	padding: 7px;
+	margin: 0px;
 }
 
 .container > .header {
 	display: block;
-	position: relative;
+	position: fixed;
 	top: 0px;
 	width: 100%;
-	min-height: 21px;
+	min-height: 81px;
 }
 
 .container > .footer {
 	display: block;
-	position: relative;
+	position: fixed;
 	bottom: 0px;
 	width: 100%;
 	min-height: 77px;
 }
-
+.container > .content {
+	margin: 81px 0px 77px 0px;
+	display: block;
+}
 .container > .grid {
 	display: table;
 	
